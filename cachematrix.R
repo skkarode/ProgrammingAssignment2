@@ -5,7 +5,7 @@
 ## This function creates "special matrix" which is a list of 4 functions 
 ## get(), set() to get and set the value of the matrix respectively
 ## getInverse() and setInverse() to get and set value of the matrix Inverse
-makeCacheMatrix <- function(x = matrix()) {
+makeCacheMatrix <- function(m = matrix()) {
     mInv <- NULL
     set <- function(y) {
       m <<- y
